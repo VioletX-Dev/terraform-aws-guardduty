@@ -7,7 +7,7 @@ Start by setting up an incoming webhook integration in your Slack workspace.
 
 ```
 module "example" {
-  source = "https://github.com/VioletX-Dev/terraform-aws-guardduty.git?ref=main"
+  source = "github.com/VioletX-Dev/terraform-aws-guardduty.git?ref=main"
 
   name                         = "guard-duty-findings-ACME"
   finding_publishing_frequency = "ONE_HOUR"
