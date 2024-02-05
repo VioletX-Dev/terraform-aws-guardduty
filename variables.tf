@@ -30,3 +30,9 @@ variable "slack_emoji" {
   type        = string
   default     = ":aws:"
 }
+
+variable "has_kubernetes" {
+  description = "If you have Kubernetes cluster set `true`."
+  type = bool
+  default = false
+}

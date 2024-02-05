@@ -10,7 +10,7 @@ resource "aws_guardduty_detector" "this" {
     }
     kubernetes {
       audit_logs {
-        enable = false
+        enable = var.has_kubernetes
       }
     }
     malware_protection {

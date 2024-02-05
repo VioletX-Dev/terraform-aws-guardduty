@@ -2,7 +2,9 @@
 
 This module enables AWS Guard Duty, creates an SNS topic to receive Guard Duty messages and an AWS Lambda function that sends notifications to Slack using the incoming webhooks API.
 
-Start by setting up an incoming webhook integration in your Slack workspace.
+Start by setting up an incoming webhook integration in your Slack workspace. [Documentation](https://api.slack.com/messaging/webhooks)
+
+
 ## Usage:
 
 ```
